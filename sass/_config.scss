@@ -1,0 +1,21 @@
+// ========
+// = Vars =
+// ========
+
+$defaultFontColor: #333;
+$bodyFontSizeMobile: 12;
+$bodyFontSizeTablet: 16;
+
+$pageSpacing: 5px;
+$structureSpacing: $pageSpacing * 2;
+
+$font-body: "Lato", Verdana, sans-serif;
+
+// ==========
+// = Mixins =
+// ==========
+
+@mixin font-size($size) {
+    font-size: $size * 1px;
+    font-size: ($size / 10) + rem;
+}
